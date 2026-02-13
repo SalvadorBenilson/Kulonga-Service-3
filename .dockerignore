@@ -1,0 +1,19 @@
+# .dockerignore for service3
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vscode/
+*.swp
+*.DS_Store
+*.log
+.env
+.env.*
+secrets.json
+appsettings.*.json
+!appsettings.json
+.git
+.gitignore
